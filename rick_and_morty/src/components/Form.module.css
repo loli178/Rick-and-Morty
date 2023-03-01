@@ -46,7 +46,7 @@
     z-index: -15;
     width: 400px;
   }
-  45% {
+  75% {
     left: 700px;
     opacity: 0;
     z-index: -15;
@@ -92,20 +92,25 @@
 }
 .portalLila {
   position: absolute;
-  width: 1750px;
-  height: auto;
   top: -125px;
   left: 350px;
+  width: 1750px;
+  height: auto;
+
   z-index: -10;
   animation-name: rotacion;
   animation-duration: 20s;
   animation-iteration-count: infinite;
 }
 .divform {
+  position: absolute;
+  top: 600px;
+  left: 950px;
+
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(13, 11, 11);
+  /* background-color: rgb(13, 11, 11); */
   color: aliceblue;
   border-radius: 10px;
   border: 3px solid rgb(102, 67, 111);
@@ -115,11 +120,11 @@
   animation-name: form;
   animation-duration: 20s;
 }
-.divform:hover {
+/* .divform:hover {
   border-radius: 0% 0% 50% 50% / 0% 0% 10% 10%;
   box-shadow: 7px 7px rgba(117, 108, 117, 0.25);
   background-color: rgb(20, 17, 23);
-}
+} */
 .divform label {
   margin: 10px;
 }
