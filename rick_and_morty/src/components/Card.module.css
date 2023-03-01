@@ -1,0 +1,44 @@
+@keyframes agrandar {
+  0% {
+    width: 1%;
+  }
+  40% {
+    width: 100%;
+  }
+}
+
+.container {
+  color: aliceblue;
+  border: 15px solid transparent;
+  border-radius: 2px;
+}
+
+.container img {
+  border-radius: 20px;
+  box-shadow: -10px -10px 0 0 rgb(100, 100, 100);
+  animation-name: agrandar;
+  animation-duration: 10s;
+  /* border: 3px solid rgb(64, 63, 63); */
+  box-shadow: 0 0 20px #eee;
+}
+.container a:link,
+a:visited {
+  text-decoration: none;
+  color: rgb(247, 247, 243);
+  font-size: larger;
+  cursor: pointer;
+}
+.container button {
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(76, 35, 130, 1) 40%, rgba(67, 69, 75, 0.628) 100%);
+  color: white;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+}

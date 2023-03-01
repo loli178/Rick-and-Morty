@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+  height: 1000px;
+  /* background: linear-gradient(to bottom, #00ff00 0%, #99ff99 100%);
+  /* background-image: url(https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js); */
+
+  /* background: radial-gradient(circle 700px, gold 10%, #00ff00 65%, black 85%); */
+  /* background-color: aqua;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(./imagenes/kisspng-t-shirt-morty-smith-rick-sanchez-pickle-rick-art-rick-and-morty-5ac72d615ba621.9583363515230027213754.png); */
+}
+
+.Container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 50px;
+  align-content: space-between;
+}
