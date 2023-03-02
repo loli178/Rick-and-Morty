@@ -37,6 +37,9 @@
   0% {
     opacity: 1;
   }
+  5% {
+    opacity: 1;
+  }
   25% {
     transform: rotateZ(0deg);
     transform: rotateZ(360deg);
